@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sakshi Singh | Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="page">
+      <header class="top-nav">
+        <div class="logo">Sakshi<span>Singh</span></div>
+        <nav>
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#experience">Experience</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </header>
+
+      <main>
+        <section class="hero" id="home">
+          <div class="hero-text">
+            <p class="tag">Computer Science &amp; Engineering (AI &amp; ML)</p>
+            <h1>Hi, I'm <span>Sakshi Singh</span></h1>
+            <p class="subtitle">
+              Aspiring AI &amp; ML engineer with a strong foundation in
+              programming and real-world experience through hackathons and internships.
+            </p>
+            <div class="hero-actions">
+              <a href="#projects" class="btn primary">View Projects</a>
+              <a href="#contact" class="btn ghost">Contact Me</a>
+            </div>
+          </div>
+        </section>
+
+        <section id="about" class="card-section">
+          <h2>About Me</h2>
+          <p>
+            I am a Computer Science and Engineering student specializing in
+            Artificial Intelligence and Machine Learning. I enjoy building
+            intelligent solutions using data, algorithms, and clean code.
+          </p>
+        </section>
+
+        <section id="skills" class="card-section">
+          <h2>Skills</h2>
+          <div class="chips">
+            <span class="chip">Python</span>
+            <span class="chip">C</span>
+            <span class="chip">C++</span>
+            <span class="chip">Data Structures</span>
+            <span class="chip">Algorithms</span>
+            <span class="chip">Machine Learning Basics</span>
+          </div>
+        </section>
+
+        <section id="experience" class="card-section two-col">
+          <div>
+            <h2>Hackathons</h2>
+            <ul class="timeline">
+              <li>
+                <h3>Hackathon 1</h3>
+                <p class="time">College / Online &mdash; Year</p>
+                <p>
+                  Briefly describe your project, your role, and what you built.
+                </p>
+              </li>
+              <li>
+                <h3>Hackathon 2</h3>
+                <p class="time">College / Online &mdash; Year</p>
+                <p>
+                  Add another hackathon or replace this text with your real experience.
+                </p>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h2>Internships</h2>
+            <ul class="timeline">
+              <li>
+                <h3>Internship Role</h3>
+                <p class="time">Company Name &mdash; From – To</p>
+                <p>
+                  Describe your responsibilities, technologies used, and what you learned.
+                </p>
+              </li>
+              <li>
+                <h3>Another Internship (Optional)</h3>
+                <p class="time">Company Name &mdash; From – To</p>
+                <p>
+                  You can update or remove this placeholder based on your experience.
+                </p>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <section id="projects" class="card-section">
+          <h2>Projects</h2>
+          <p>
+            Add a few of your AI/ML or programming projects here with a short
+            description and tech stack.
+          </p>
+          <div class="projects-grid">
+            <article class="project-card">
+              <h3>Project Title</h3>
+              <p>
+                Short description of what the project does and what you worked on.
+              </p>
+              <p class="stack">Tech: Python, C++</p>
+            </article>
+            <article class="project-card">
+              <h3>Another Project</h3>
+              <p>
+                Replace these placeholders with your own projects as you build them.
+              </p>
+              <p class="stack">Tech: Your tools</p>
+            </article>
+          </div>
+        </section>
+
+        <section id="contact" class="card-section">
+          <h2>Contact</h2>
+          <p>
+            You can update this section with your real contact details.
+          </p>
+          <ul class="contact-list">
+            <li><strong>Email:</strong> your-email@example.com</li>
+            <li><strong>LinkedIn:</strong> your-linkedin-profile</li>
+            <li><strong>GitHub:</strong> your-github-username</li>
+          </ul>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <p>&copy; <span id="year"></span> Sakshi Singh. All rights reserved.</p>
+      </footer>
+    </div>
+
+    <script>
+      // Set current year in footer
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
+
+
